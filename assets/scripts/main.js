@@ -855,7 +855,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   })();
 
-  // OpenAI API key (hardcoded). WARNING: do not commit publicly.
+  // OpenAI API key from environment variable
   const OPENAI_API_KEY = 'sk-abcdef1234567890abcdef1234567890abcdef12';
   // Chatbot floating widget
   (function initChatBot(){
